@@ -1,0 +1,17 @@
+{
+	"title" : "Skills",
+	"skills" : {
+		"MongoDB": "50",
+		"CouchDB": "80",
+		"ELK Stack (Elasticsearch, Logstash, Kibana)": "80",
+
+		"Python" : "90",
+		"Scrapy" : "95",
+
+		"Linux" : "70",
+		"Docker" : "70",
+		
+		"Cloud AWS" : "30",
+		"Cloud GCP" : "60"
+	}
+}
