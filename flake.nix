@@ -16,8 +16,10 @@
     in {
       devShells.default = pkgs.mkShell {
         packages = with pkgs; [
+          pre-commit
           nodejs_20
           nodePackages.pnpm
+          nodePackages.eslint
         ];
       };
     });
