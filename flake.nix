@@ -23,6 +23,14 @@
             nodejs_23
             nodePackages.pnpm
           ];
+
+          shellHook = ''
+            if [ -d "node_modules" ]; then
+              echo "node_modules already present"
+            else
+              pnpm install
+            fi;
+          '';
         };
       }
     );
